@@ -2,7 +2,7 @@
 
 namespace Statistics {
     // define the Stats structure here. See the tests to infer its properties
-    struct Stats{
+    typedef struct Stats{
 	float average;
 	float max;
 	float min;
