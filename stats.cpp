@@ -16,9 +16,17 @@
 	{
 		k.max =static_cast<float>(nan("0x12345")) ;
 	}
+	else
+	{
+		k.max=*max;
+	}
 	if(min==a.end())
 	{
 		k.min = static_cast<float>(nan("0x12345"));
+	}
+	else
+	{
+		k.min=*min;
 	}
 	return k;
 }
