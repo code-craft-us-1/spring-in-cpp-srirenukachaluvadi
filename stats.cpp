@@ -3,7 +3,7 @@
 #include <numeric>
 #include <vector>
 #include <math.h>
-#include<cmath.h>
+
 
  Statistics::Stats Statistics::ComputeStatistics(const std::vector<float>& a) {
     //Implement statistics here
